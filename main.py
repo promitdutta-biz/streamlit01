@@ -17,8 +17,8 @@ from sklearn.model_selection import RandomizedSearchCV
 import time
 from sklearn.metrics import mean_absolute_error
 
-csv1 = r"D:\aws_datascience\Training set.csv"
-csv2 = r"D:\aws_datascience\Test set.csv"
+csv1 = r"Training set.csv"
+csv2 = r"Test set.csv"
 df1 = pd.read_csv(csv1)
 df2 = pd.read_csv(csv2)
 df = pd.concat([df1, df2])
