@@ -97,7 +97,7 @@ def main():
 	if st.button("Learn more About the training data"): 
 		DataViz() 
 		st.pyplot(plt)
-		st.dataframe(df.groupby('sex').agg({'height':[min, max, np.mean, np.median], 'weight':[min, max, np.mean, np.median]}).reset_index())
+		st.dataframe(df.groupby('sex').agg({'height':["min", "max", "mean", "median", "count"], 'weight':[min, max, np.mean, np.median]}).reset_index())
 	
 if __name__=='__main__': 
 	main()
