@@ -78,7 +78,7 @@ def main():
 	# this line allows us to display the front end aspects we have 
 	# defined in the above code 
 	st.markdown(html_temp, unsafe_allow_html = True) 
-	
+	st.markdown("Caution: This app is trained on less data and it mamy show unrelaiable prediction !")
 	# the following lines create text boxes in which the user can enter 
 	# the data required to make the prediction
 	# Create the dropdown
